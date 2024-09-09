@@ -1,0 +1,19 @@
+.footer {
+    background-color: black;
+    margin-top: 100px;
+}
+
+.footer-container {
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    background-color: black;
+    padding: 20px;
+}
+
+.footer-container p {
+    color: white;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}

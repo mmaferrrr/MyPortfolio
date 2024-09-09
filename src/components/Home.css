@@ -1,0 +1,90 @@
+.aboutme h2, .skillssection h2, .projectssection h2, .contactme h2 {
+    font-size: 50px;
+    font-weight: 800;
+  }
+
+  .aboutme h4, .skillssection h4, .projectssection h4 {
+    font-size: 30px;
+  }
+
+  .aboutme p {
+    font-size: 22px;
+  }
+
+  .aboutme, .skillssection, .projectssection, .contactme {
+    width: 60%;
+    margin-left: 300px;
+  }
+
+  .threecard-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 300px;
+  }
+
+  .card {
+    background-color:rgba(44, 75, 34, 0.612);
+  }
+
+  .card h4 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .card-img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .skillssection img {
+    width: 120px;
+    width: 120px;
+  }
+
+  .accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  .socialicon {
+    height: 50px;
+    width: 50px;
+    color: black;
+    margin-right: 20px;
+  }
+
+  .socialicon:hover {
+    color: #444;
+  }
+
+  .resumebutton {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+  }
+
+  .resumebutton:hover {
+    background-color: #444;
+  }
+
+  .resumebutton a {
+    color: white;
+    text-decoration: none;
+  }
